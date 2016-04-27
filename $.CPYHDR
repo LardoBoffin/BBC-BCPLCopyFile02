@@ -1,0 +1,28 @@
+//Copy file Header
+//
+//Filename CPYHDR
+//
+//Created 22/03/2016
+//
+//V1.00
+//The constant FirstFreeGlobal is used rather than typing in numbers
+//If using numbers start at 300 or above to avoid conflicts with system
+//globals
+//
+
+GET "LIBHDR"
+GET "SYSHDR"
+
+
+MANIFEST $(
+UG = FIRSTFREEGLOBAL //SAVE TYPING
+$)
+
+GLOBAL $(//global variables
+SFILE:UG
+TFILE:UG+1
+CH:UG+2
+SFILENAME:UG+3
+TFILENAME:UG+4
+$)
+
