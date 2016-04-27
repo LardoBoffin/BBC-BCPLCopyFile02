@@ -20,7 +20,7 @@ Load BCPLS into disk 0. Load BCPLT into disk 1. Note that BCPLS is effectively t
 
 Type *BCPL
 
-On drive 0 type "BCPL COPYFL CODE" to build. This will build into RAM. Type "SAVE CODE" to save it to disk.
+On drive 0 type "BCPL COPYFL CODE" to build. This will build into RAM
 
 Type *Drive 1 to move to BCPLT
 
